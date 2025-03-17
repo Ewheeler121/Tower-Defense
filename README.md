@@ -10,9 +10,9 @@
 ---
 
 # Required ReadMe Info for ALL MCS1653 Projects
-* **Project**   - 
-* **Your Name** - 
-* **Date**      - 
+* **Project**   - Unity Tower Defense Demo
+* **Your Name** - Peter Guenther
+* **Date**      - 02/23/2025
 
 <br>
 
@@ -29,7 +29,7 @@
 <br>
 
 3. **Any assets used that you didn't create yourself?** <br> (art, music, etc. Just tell us where you got it, link it here)
-
+https://opengameart.org/content/grassland-tileset
 
 
 <br>
@@ -47,7 +47,7 @@
 <br>
 
 6. **Did you get help from any online websites, videos, or tutorials?** <br> (link them here)
-
+https://www.youtube.com/watch?v=H0BdL5RoYTY
 
 
 <br>
