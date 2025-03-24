@@ -6,10 +6,13 @@ public class Tower : MonoBehaviour {
     public GameObject Turret;
     public Enemy Target;
     public GameObject Projectile;
+
     public float Range = 5.0f;
+    public float cooldown = 5f;
 
     private Path LevelPath;
     private float currentEnemyDistance;
+    private float timeout = 0f;
 
     // Start is called before the first frame update
     void Start() {
@@ -43,10 +46,15 @@ public class Tower : MonoBehaviour {
         }
 
         //fire if target acquired
-        if (Target != null) {
+        if (Target != null && timeout <= 0f) {
             Turret.transform.LookAt(Target.transform.position);
             Instantiate(Projectile, Turret.transform.position, Turret.transform.rotation);
-            //fire!
+            Turret.transform.Rotate(90, 0, 0);
+            timeout = cooldown;
+        }
+
+        if(timeout > 0f) {
+            timeout -= Time.deltaTime;
         }
     }
 }

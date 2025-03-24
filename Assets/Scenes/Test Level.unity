@@ -3048,37 +3048,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8434640426405801783, guid: 01e6802c2c0bbe6f28e4a9a7b449a950, type: 3}
   m_PrefabInstance: {fileID: 996631511}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1002795586
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1002795587}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1002795587
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002795586}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4714799, y: 0.69849896, z: 1.3360682}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1007834934
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,6 +3142,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81c5ea05a4149fc18950fd96e08ccf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  music: {fileID: 8300000, guid: 66b8362ed29fc3cc091fe2aaeebab610, type: 3}
+  audioSource: {fileID: 0}
+  menuOpen: 0
+  countdown: 60
 --- !u!1001 &1039373400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4930,6 +4903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   secondsBetweenEnemies: 3
   enemy: {fileID: 8224678667128270028, guid: e41a720ad21d4aff38d7c0e71fcecee4, type: 3}
+  slow_enemy: {fileID: 8224678667128270028, guid: 3014f8f0304a6d342857c1659e4ef34a, type: 3}
 --- !u!1001 &1772395610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5391,7 +5365,6 @@ SceneRoots:
   - {fileID: 7530078460440076549}
   - {fileID: 1482004847}
   - {fileID: 1010069531}
-  - {fileID: 1002795587}
   - {fileID: 826076983}
   - {fileID: 1007834935}
   - {fileID: 1873438506}

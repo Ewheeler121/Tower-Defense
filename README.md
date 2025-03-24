@@ -29,9 +29,8 @@
 <br>
 
 3. **Any assets used that you didn't create yourself?** <br> (art, music, etc. Just tell us where you got it, link it here)
-https://opengameart.org/content/grassland-tileset
-
-
+https://opengameart.org/content/fly-swatter-squish-sound
+https://opengameart.org/content/space-shoot-sounds
 <br>
 
 4. **Did you receive help from anyone outside this class?** <br> (list their names and what they helped with)

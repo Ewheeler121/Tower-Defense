@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 1765677845205962937}
   - component: {fileID: 4225265966579155340}
   m_Layer: 0
-  m_Name: test_turret
+  m_Name: test_turret_slow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,9 +153,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Turret: {fileID: 6233710500877374826}
   Target: {fileID: 3343035578026857398, guid: e41a720ad21d4aff38d7c0e71fcecee4, type: 3}
-  Projectile: {fileID: 588751278334323163, guid: 640ab6b8b80b30ab2b5773ed2560e3ad, type: 3}
+  Projectile: {fileID: 588751278334323163, guid: 2e1f0f75f5fbe5dd8a3f8eefa20beded, type: 3}
   Range: 5
-  cooldown: 1
+  cooldown: 5
 --- !u!1 &6233710500877374826
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,7 +218,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 64d1a6a37d14a12448a7e78f32d14793, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 6ed471dda925c21d8b25e4b21403ece2
+guid: d31580cf3802744df9428e80ed6bfa37
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
   - audio: {instanceID: 0}
-  - shot: {fileID: 8300000, guid: ac808f48a7775dec8a0c087812584e8d, type: 3}
-  - hit: {instanceID: 0}
+  - shot: {fileID: 8300000, guid: bcdc061601bba8b579eb19fa62abc8a9, type: 3}
+  - hit: {fileID: 8300000, guid: fb503670b62d77a329d88d0bccc10f85, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

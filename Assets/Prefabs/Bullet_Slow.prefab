@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4727987697074578523}
   - component: {fileID: 2238580016521594904}
   - component: {fileID: 3946586095700427611}
-  - component: {fileID: 8249278531215629121}
+  - component: {fileID: 1230881949916890086}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Bullet_Slow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8249278531215629121
+--- !u!114 &1230881949916890086
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,11 +115,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 588751278334323163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ed471dda925c21d8b25e4b21403ece2, type: 3}
+  m_Script: {fileID: 11500000, guid: d31580cf3802744df9428e80ed6bfa37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  audiosource: {fileID: 0}
-  shot: {fileID: 8300000, guid: ac808f48a7775dec8a0c087812584e8d, type: 3}
-  hit: {fileID: 0}
-  explode: {fileID: 8300000, guid: a3a828bd9579afd20af583a6247cc76f, type: 3}
+  slowDown: 0.8
+  audio: {fileID: 0}
+  shot: {fileID: 8300000, guid: bcdc061601bba8b579eb19fa62abc8a9, type: 3}
+  hit: {fileID: 8300000, guid: 92235edfeb449b3f89f38f1db02fa5e2, type: 3}

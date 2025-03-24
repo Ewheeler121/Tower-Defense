@@ -5,8 +5,13 @@ public class BuildableSpace : MonoBehaviour {
     public Material highlightMaterial;
     public GameObject buildMenu;
 
+    private gameManager manager;
     private GameObject menu;
     private bool showingMenu = false;
+    
+    public void Start() {
+        manager = GameObject.Find("GameManager").GetComponent<gameManager>();
+    }
 
     public void showMenu() {
         if(showingMenu) {
@@ -28,6 +33,9 @@ public class BuildableSpace : MonoBehaviour {
     }
     
     public void OnMouseDown() {
-        showMenu();
+        if(!manager.menuOpen) {
+            manager.menuOpen = !manager.menuOpen;
+            showMenu();
+        }
     }
 }
