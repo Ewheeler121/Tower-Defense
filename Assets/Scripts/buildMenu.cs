@@ -29,9 +29,7 @@ public class BuildMenu : MonoBehaviour {
     }
 
     public void Upgrade() {
-        Debug.Log("Upgrade");
-        manager.menuOpen = false;
-        GetComponentInParent<BuildableSpace>().hideMenu();
+        SpawnTower();
     }
 
     public void Close() {

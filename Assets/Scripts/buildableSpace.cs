@@ -11,6 +11,7 @@ public class BuildableSpace : MonoBehaviour {
     
     public void Start() {
         manager = GameObject.Find("GameManager").GetComponent<gameManager>();
+        gameObject.GetComponent<MeshRenderer>().material = baseMaterial;
     }
 
     public void showMenu() {
